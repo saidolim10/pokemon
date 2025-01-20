@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    background-color: rgb(33, 33, 33);
+}
+
+.container {
+    width: 90%;
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+input {
+    background-color: white;
+    border: none;
+    width: 211px;
+    border-radius: 10px;
+    height: 38px;
+}
+
+button {
+    width: 211px;
+    height: 38px;
+    border: none;
+    background-color: green;
+    border-radius: 10px;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+select {
+    background-color: white;
+    border: none;
+    width: 211px;
+    border-radius: 10px;
+    height: 38px;
+}
